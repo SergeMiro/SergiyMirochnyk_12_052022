@@ -1,8 +1,7 @@
 import './style.scss'
 
-export default function CardInfos (){
-   return(<section className="CardInfos">
+export default function CardInfo (){
+   return(<section className="card-info">
       CardInfos
-
    </section>)
 }
