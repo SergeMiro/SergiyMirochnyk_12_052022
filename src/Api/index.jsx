@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react'
 const axios = require('axios')
 
@@ -22,8 +23,7 @@ export const useApiUser = (userId, service) => {
           const fetchData = async() => {
             try {
                const response = await axios.get(endpoint);
-               //console.log(response);
-
+              
                setData(response.data.data);
                
              } catch (error) {

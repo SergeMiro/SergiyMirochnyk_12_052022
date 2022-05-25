@@ -8,7 +8,7 @@ export default function CardScore({score}){
    const data = [
       { name: 'end', value: score, fillColor:'#FF0101' },
       { name: 'start', value: 1 - score, fillColor:'#ffffff'},
-
+      
     ];
 
    return (<article className='card-score'>
@@ -36,9 +36,9 @@ export default function CardScore({score}){
             </PieChart>
          </ResponsiveContainer>
          <div className='card-score__chart__legend'>
-            legend text
+         {score*100}% de votre objectif
          </div>
       </div>
       </article>)
-
+   
 }
