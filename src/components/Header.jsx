@@ -14,7 +14,7 @@ const Image = styled.img`
   margin-top: 1.75rem;
   width: clamp(7rem, 12vw, 10rem);
   @media screen and (min-width: 600px) {
-    margin-left: 0rem;
+    margin-left: 1.4rem;
     margin-top: 0.5rem;
   }
 `;
